@@ -16,5 +16,27 @@ namespace practise_programming_asignment_2
         {
             InitializeComponent();
         }
+
+        private void Cube_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double L = Convert.ToDouble(textBox2.Text);
+
+            double V = L * L * L;
+            label4.Text = "volume = " + V;
+
+            double S = L * L * 6.0;
+            label5.Text = "Surface area = " + S;
+
+        }
     }
 }
